@@ -1,0 +1,9 @@
+{"namespace": "com.stephenhegarty.kafka.log",
+ "type": "record",
+ "name": "RawLogMessage",
+ "fields": [
+    {"name": "logId", "type": ["string", "null"]},
+    {"name": "infoLevel", "type": ["string", "null"]},
+    {"name": "logString", "type": ["string", "null"]}
+  ]
+}
